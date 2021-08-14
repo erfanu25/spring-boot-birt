@@ -1,0 +1,103 @@
+2021-08-14 11:07:32,484 INFO o.s.b.StartupInfoLogger [restartedMain] Starting BirtReportApplication using Java 1.8.0_91 on AGI-LT-1668 with PID 14940 (C:\work\Projects\BirtReport_04\target\classes started by 00004545 in C:\work\Projects\BirtReport_04)
+2021-08-14 11:07:32,494 DEBUG o.s.b.StartupInfoLogger [restartedMain] Running with Spring Boot v2.5.3, Spring v5.3.9
+2021-08-14 11:07:32,494 INFO o.s.b.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-08-14 11:07:32,547 INFO o.s.b.l.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-08-14 11:07:32,547 INFO o.s.b.l.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-08-14 11:07:33,666 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-08-14 11:07:33,712 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 20 ms. Found 0 JPA repository interfaces.
+2021-08-14 11:07:34,990 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2021-08-14 11:07:35,119 INFO o.a.j.l.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2021-08-14 11:07:35,120 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2021-08-14 11:07:35,120 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.50]
+2021-08-14 11:07:35,556 INFO o.a.j.l.DirectJDKLog [restartedMain] At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2021-08-14 11:07:35,562 INFO o.a.j.l.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2021-08-14 11:07:35,562 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 3014 ms
+2021-08-14 11:07:35,895 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2021-08-14 11:07:36,518 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2021-08-14 11:07:36,633 INFO o.h.j.i.u.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-08-14 11:07:36,817 INFO o.h.Version [restartedMain] HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-08-14 11:07:37,172 INFO o.h.a.c.r.j.JavaReflectionManager [restartedMain] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-08-14 11:07:37,536 INFO o.h.d.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.Oracle12cDialect
+2021-08-14 11:07:40,067 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-08-14 11:07:40,086 INFO o.s.o.j.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-08-14 11:07:40,122 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-08-14 11:07:40,545 INFO o.s.b.d.a.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2021-08-14 11:07:40,568 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2021-08-14 11:07:40,593 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2021-08-14 11:07:40,605 INFO o.s.b.StartupInfoLogger [restartedMain] Started BirtReportApplication in 9.177 seconds (JVM running for 11.419)
+2021-08-14 11:07:44,218 INFO o.a.j.l.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-08-14 11:07:44,219 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2021-08-14 11:07:44,223 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 2 ms
+2021-08-14 11:07:52,257 TRACE d.c.ReportController [http-nio-8080-exec-2] Enter generateUserReport
+2021-08-14 11:07:52,272 INFO d.c.ReportController [http-nio-8080-exec-2] calling generateReport method
+2021-08-14 11:07:52,274 TRACE d.s.ReportGenerator [http-nio-8080-exec-2] Enter generateReport
+2021-08-14 11:07:52,279 TRACE d.s.BirtEngine [http-nio-8080-exec-2] Enter
+2021-08-14 11:07:52,280 INFO d.s.BirtEngine [http-nio-8080-exec-2] initializing birt engine
+2021-08-14 11:07:52,292 INFO d.s.BirtEngine [http-nio-8080-exec-2] starting birt engine
+2021-08-14 11:07:52,994 INFO d.s.BirtEngine [http-nio-8080-exec-2] creating report engine
+2021-08-14 11:07:53,089 TRACE d.s.BirtEngine [http-nio-8080-exec-2] Exit
+2021-08-14 11:07:53,090 INFO d.s.ReportGenerator [http-nio-8080-exec-2] Report format: pdf
+2021-08-14 11:07:53,092 INFO d.s.ReportGenerator [http-nio-8080-exec-2] Design file name URI: file:/C:/work/Projects/BirtReport_04/target/classes/UserReport.rptdesign
+2021-08-14 11:07:53,093 INFO d.s.ReportGenerator [http-nio-8080-exec-2] Design file name URL: file:/C:/work/Projects/BirtReport_04/target/classes/UserReport.rptdesign
+2021-08-14 11:07:54,573 INFO d.s.ReportGenerator [http-nio-8080-exec-2] Creating jdbc connection
+2021-08-14 11:07:54,573 INFO d.s.ReportGenerator [http-nio-8080-exec-2] jdbc connection creation successful
+2021-08-14 11:07:54,587 INFO d.s.ReportGenerator [http-nio-8080-exec-2] design file param values: {DOB_TO=null, DOB_FROM=null, USER_ID_FROM=null, USER_ID_TO=null}
+2021-08-14 11:07:54,589 INFO d.s.ReportGenerator [http-nio-8080-exec-2] start task runReport
+2021-08-14 11:07:56,782 INFO o.e.b.r.e.l.p.f.FontMappingManagerFactory [http-nio-8080-exec-2] load font config in jar:file:/C:/Users/00004545/.m2/repository/org/eclipse/birt/runtime/org.eclipse.birt.runtime/4.4.2/org.eclipse.birt.runtime-4.4.2.jar!/fontsConfig.xml cost 29ms
+2021-08-14 11:07:56,787 INFO o.e.b.r.e.l.p.f.FontMappingManagerFactory$2 [http-nio-8080-exec-2] register fonts in /usr/openwin/lib/locale/ko.UTF-8/X11/fonts/TrueType cost:0ms
+2021-08-14 11:07:56,789 INFO o.e.b.r.e.l.p.f.FontMappingManagerFactory$2 [http-nio-8080-exec-2] register fonts in /usr/openwin/lib/locale/zh/X11/fonts/TrueType cost:0ms
+2021-08-14 11:07:56,791 INFO o.e.b.r.e.l.p.f.FontMappingManagerFactory$2 [http-nio-8080-exec-2] register fonts in /var/lib/defoma/x-ttcidfont-conf.d/dirs/TrueType cost:1ms
+2021-08-14 11:07:56,792 INFO o.e.b.r.e.l.p.f.FontMappingManagerFactory$2 [http-nio-8080-exec-2] register fonts in /usr/openwin/lib/locale/KOI8-R/X11/fonts/TrueType cost:0ms
+2021-08-14 11:07:56,794 INFO o.e.b.r.e.l.p.f.FontMappingManagerFactory$2 [http-nio-8080-exec-2] register fonts in /usr/share/fonts/zh_CN/TrueType cost:0ms
+2021-08-14 11:07:56,795 INFO o.e.b.r.e.l.p.f.FontMappingManagerFactory$2 [http-nio-8080-exec-2] register fonts in /usr/X11R6/lib/X11/fonts/truetype cost:0ms
+2021-08-14 11:07:56,796 INFO o.e.b.r.e.l.p.f.FontMappingManagerFactory$2 [http-nio-8080-exec-2] register fonts in /usr/openwin/lib/locale/zh_HK.BIG5HK/X11/fonts/TT cost:0ms
+2021-08-14 11:07:56,797 INFO o.e.b.r.e.l.p.f.FontMappingManagerFactory$2 [http-nio-8080-exec-2] register fonts in /usr/X11R6/lib/X11/fonts/tt cost:0ms
+2021-08-14 11:07:56,799 INFO o.e.b.r.e.l.p.f.FontMappingManagerFactory$2 [http-nio-8080-exec-2] register fonts in /usr/openwin/lib/locale/ar/X11/fonts/TrueType cost:1ms
+2021-08-14 11:07:56,800 INFO o.e.b.r.e.l.p.f.FontMappingManagerFactory$2 [http-nio-8080-exec-2] register fonts in /usr/openwin/lib/locale/zh_TW.BIG5/X11/fonts/TT cost:1ms
+2021-08-14 11:07:56,802 INFO o.e.b.r.e.l.p.f.FontMappingManagerFactory$2 [http-nio-8080-exec-2] register fonts in /usr/openwin/lib/locale/ja/X11/fonts/TT cost:0ms
+2021-08-14 11:07:56,803 INFO o.e.b.r.e.l.p.f.FontMappingManagerFactory$2 [http-nio-8080-exec-2] register fonts in d:/windows/fonts cost:0ms
+2021-08-14 11:07:56,804 INFO o.e.b.r.e.l.p.f.FontMappingManagerFactory$2 [http-nio-8080-exec-2] register fonts in /usr/openwin/lib/locale/iso_8859_2/X11/fonts/TrueType cost:0ms
+2021-08-14 11:07:56,805 INFO o.e.b.r.e.l.p.f.FontMappingManagerFactory$2 [http-nio-8080-exec-2] register fonts in /usr/openwin/lib/locale/iso_8859_5/X11/fonts/TrueType cost:1ms
+2021-08-14 11:07:56,806 INFO o.e.b.r.e.l.p.f.FontMappingManagerFactory$2 [http-nio-8080-exec-2] register fonts in /usr/openwin/lib/locale/hi_IN.UTF-8/X11/fonts/TrueType cost:0ms
+2021-08-14 11:07:56,807 INFO o.e.b.r.e.l.p.f.FontMappingManagerFactory$2 [http-nio-8080-exec-2] register fonts in /usr/X11R6/lib/X11/fonts/TTF cost:0ms
+2021-08-14 11:07:56,809 INFO o.e.b.r.e.l.p.f.FontMappingManagerFactory$2 [http-nio-8080-exec-2] register fonts in /usr/openwin/lib/locale/zh.GBK/X11/fonts/TrueType cost:0ms
+2021-08-14 11:07:56,810 INFO o.e.b.r.e.l.p.f.FontMappingManagerFactory$2 [http-nio-8080-exec-2] register fonts in /usr/share/fonts/ja/TrueType cost:0ms
+2021-08-14 11:07:56,812 INFO o.e.b.r.e.l.p.f.FontMappingManagerFactory$2 [http-nio-8080-exec-2] register fonts in /usr/openwin/lib/locale/zh_TW/X11/fonts/TrueType cost:0ms
+2021-08-14 11:07:57,713 INFO o.e.b.r.e.l.p.f.FontMappingManagerFactory$2 [http-nio-8080-exec-2] register fonts in C:/windows/fonts cost:900ms
+2021-08-14 11:07:57,714 INFO o.e.b.r.e.l.p.f.FontMappingManagerFactory$2 [http-nio-8080-exec-2] register fonts in /usr/X11R6/lib/X11/fonts/OTF cost:0ms
+2021-08-14 11:07:57,714 INFO o.e.b.r.e.l.p.f.FontMappingManagerFactory$2 [http-nio-8080-exec-2] register fonts in e:/windows/fonts cost:0ms
+2021-08-14 11:07:57,714 INFO o.e.b.r.e.l.p.f.FontMappingManagerFactory$2 [http-nio-8080-exec-2] register fonts in e:/WINNT/fonts cost:0ms
+2021-08-14 11:07:57,714 INFO o.e.b.r.e.l.p.f.FontMappingManagerFactory$2 [http-nio-8080-exec-2] register fonts in /usr/openwin/lib/locale/iso_8859_9/X11/fonts/TrueType cost:0ms
+2021-08-14 11:07:57,715 INFO o.e.b.r.e.l.p.f.FontMappingManagerFactory$2 [http-nio-8080-exec-2] register fonts in d:/WINNT/fonts cost:0ms
+2021-08-14 11:07:57,715 INFO o.e.b.r.e.l.p.f.FontMappingManagerFactory$2 [http-nio-8080-exec-2] register fonts in g:/WINNT/fonts cost:0ms
+2021-08-14 11:07:57,716 INFO o.e.b.r.e.l.p.f.FontMappingManagerFactory$2 [http-nio-8080-exec-2] register fonts in /usr/openwin/lib/locale/iso_8859_8/X11/fonts/TrueType cost:0ms
+2021-08-14 11:07:57,716 INFO o.e.b.r.e.l.p.f.FontMappingManagerFactory$2 [http-nio-8080-exec-2] register fonts in /usr/share/fonts/zh_TW/TrueType cost:0ms
+2021-08-14 11:07:57,716 INFO o.e.b.r.e.l.p.f.FontMappingManagerFactory$2 [http-nio-8080-exec-2] register fonts in /usr/openwin/lib/locale/ru.ansi-1251/X11/fonts/TrueType cost:0ms
+2021-08-14 11:07:57,717 INFO o.e.b.r.e.l.p.f.FontMappingManagerFactory$2 [http-nio-8080-exec-2] register fonts in /usr/share/fonts/default/TrueType cost:0ms
+2021-08-14 11:07:57,717 INFO o.e.b.r.e.l.p.f.FontMappingManagerFactory$2 [http-nio-8080-exec-2] register fonts in /usr/openwin/lib/locale/iso_8859_7/X11/fonts/TrueType cost:0ms
+2021-08-14 11:07:57,717 INFO o.e.b.r.e.l.p.f.FontMappingManagerFactory$2 [http-nio-8080-exec-2] register fonts in f:/WINNT/fonts cost:0ms
+2021-08-14 11:07:57,718 INFO o.e.b.r.e.l.p.f.FontMappingManagerFactory$2 [http-nio-8080-exec-2] register fonts in /usr/openwin/lib/locale/iso_8859_13/X11/fonts/TrueType cost:0ms
+2021-08-14 11:07:57,718 INFO o.e.b.r.e.l.p.f.FontMappingManagerFactory$2 [http-nio-8080-exec-2] register fonts in /usr/openwin/lib/locale/euro_fonts/X11/fonts/TrueType cost:0ms
+2021-08-14 11:07:57,718 INFO o.e.b.r.e.l.p.f.FontMappingManagerFactory$2 [http-nio-8080-exec-2] register fonts in f:/windows/fonts cost:0ms
+2021-08-14 11:07:57,719 INFO o.e.b.r.e.l.p.f.FontMappingManagerFactory$2 [http-nio-8080-exec-2] register fonts in /usr/openwin/lib/locale/iso_8859_15/X11/fonts/TrueType cost:0ms
+2021-08-14 11:07:57,720 INFO o.e.b.r.e.l.p.f.FontMappingManagerFactory$2 [http-nio-8080-exec-2] register fonts in /usr/openwin/lib/locale/th_TH/X11/fonts/TrueType cost:0ms
+2021-08-14 11:07:57,720 INFO o.e.b.r.e.l.p.f.FontMappingManagerFactory$2 [http-nio-8080-exec-2] register fonts in /usr/openwin/lib/locale/ko/X11/fonts/TrueType cost:0ms
+2021-08-14 11:07:57,720 INFO o.e.b.r.e.l.p.f.FontMappingManagerFactory$2 [http-nio-8080-exec-2] register fonts in /usr/openwin/lib/X11/fonts/TrueType cost:0ms
+2021-08-14 11:07:57,720 INFO o.e.b.r.e.l.p.f.FontMappingManagerFactory$2 [http-nio-8080-exec-2] register fonts in /usr/X/lib/X11/fonts/TrueType cost:0ms
+2021-08-14 11:07:57,721 INFO o.e.b.r.e.l.p.f.FontMappingManagerFactory$2 [http-nio-8080-exec-2] register fonts in /usr/X11R6/lib/X11/fonts/TrueType cost:0ms
+2021-08-14 11:07:57,721 INFO o.e.b.r.e.l.p.f.FontMappingManagerFactory$2 [http-nio-8080-exec-2] register fonts in /usr/share/fonts/truetype cost:0ms
+2021-08-14 11:07:57,721 INFO o.e.b.r.e.l.p.f.FontMappingManagerFactory$2 [http-nio-8080-exec-2] register fonts in C:/WINNT/fonts cost:0ms
+2021-08-14 11:07:57,722 INFO o.e.b.r.e.l.p.f.FontMappingManagerFactory$2 [http-nio-8080-exec-2] register fonts in /usr/openwin/lib/locale/zh_CN.GB18030/X11/fonts/TrueType cost:1ms
+2021-08-14 11:07:57,722 INFO o.e.b.r.e.l.p.f.FontMappingManagerFactory$2 [http-nio-8080-exec-2] register fonts in g:/windows/fonts cost:0ms
+2021-08-14 11:07:57,722 INFO o.e.b.r.e.l.p.f.FontMappingManagerFactory$2 [http-nio-8080-exec-2] register fonts in /usr/share/fonts/ko/TrueType cost:0ms
+2021-08-14 11:07:57,728 INFO o.e.b.r.e.l.p.f.FontMappingManagerFactory [http-nio-8080-exec-2] load font config in jar:file:/C:/Users/00004545/.m2/repository/org/eclipse/birt/runtime/org.eclipse.birt.runtime/4.4.2/org.eclipse.birt.runtime-4.4.2.jar!/fontsConfig_win32.xml cost 3ms
+2021-08-14 11:07:57,774 INFO o.e.b.r.e.l.p.f.FontMappingManagerFactory [http-nio-8080-exec-2] load font config in jar:file:/C:/Users/00004545/.m2/repository/org/eclipse/birt/runtime/org.eclipse.birt.runtime/4.4.2/org.eclipse.birt.runtime-4.4.2.jar!/fontsConfig_pdf.xml cost 1ms
+2021-08-14 11:07:58,156 INFO d.s.ReportGenerator [http-nio-8080-exec-2] Report Generated
+2021-08-14 11:07:58,157 TRACE d.s.ReportGenerator [http-nio-8080-exec-2] Exit with(generateReport)
+2021-08-14 11:07:58,157 TRACE d.c.ReportController [http-nio-8080-exec-2] Enter setContentType,: reportFormat:- pdf
+2021-08-14 11:07:58,158 TRACE d.c.ReportController [http-nio-8080-exec-2] Exit with(setContentType)
+2021-08-14 11:07:58,160 TRACE d.c.ReportController [http-nio-8080-exec-2] Exit with(Report Generation completed)
+2021-08-14 11:08:06,340 INFO o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(4)-127.0.0.1] Application shutdown requested.
+2021-08-14 11:08:06,874 INFO o.s.o.j.AbstractEntityManagerFactoryBean [RMI TCP Connection(4)-127.0.0.1] Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-08-14 11:08:06,887 INFO c.z.h.HikariDataSource [RMI TCP Connection(4)-127.0.0.1] HikariPool-1 - Shutdown initiated...
+2021-08-14 11:08:06,956 INFO c.z.h.HikariDataSource [RMI TCP Connection(4)-127.0.0.1] HikariPool-1 - Shutdown completed.
